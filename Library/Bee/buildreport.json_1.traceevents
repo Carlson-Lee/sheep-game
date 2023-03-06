@@ -1,0 +1,461 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1678098259509124, "dur": 2682384, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678098259509361, "dur": 13366, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678098259522730, "dur": 31945, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678098259554676, "dur": 731113, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678098260285792, "dur": 1899525, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678098262185319, "dur": 6189, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678098262191814, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1678098260092066, "dur": 179366, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678098260093066, "dur": 41952, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678098260256383, "dur": 4090, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678098260260476, "dur": 10949, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678098260261229, "dur": 9773, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678098260276186, "dur": 1682, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678098260275286, "dur": 2610, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678098262191867, "dur": 3303, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1678098260317959, "dur":542, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098260318504, "dur":32, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1678098260318552, "dur":8, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1678098260318560, "dur":267, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1678098260318856, "dur":377, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098260319233, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149020, "dur":129, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149149, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149160, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149163, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149178, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149180, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149188, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149190, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149197, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149198, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149204, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149206, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149211, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149227, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262149246, "dur":819, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1678098260319151, "dur":89, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260319242, "dur":1313, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260320562, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678098260320567, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260321129, "dur":160, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678098260321293, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678098260321308, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260321551, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678098260323397, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1678098260323426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260323454, "dur":41687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1678098260365153, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1678098260365178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260365182, "dur":16055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1678098260381249, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1678098260381273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260381278, "dur":3879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1678098260385168, "dur":130595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260515767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260515986, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260516663, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1678098260516687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260516772, "dur":80280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1678098260597064, "dur":24601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260621668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260621674, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260624151, "dur":13864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260638019, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260638025, "dur":434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260638468, "dur":80060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260718536, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260718567, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260720378, "dur":30365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260750748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260750752, "dur":3134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260753895, "dur":47747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260801645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260801650, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260802575, "dur":14545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260817123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260817129, "dur":512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260817650, "dur":27013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260844665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260844670, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260845718, "dur":19340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260865061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260865067, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260865645, "dur":40171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260905820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260905825, "dur":554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260906389, "dur":18326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260924718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260924724, "dur":477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260925210, "dur":15869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260941082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260941088, "dur":488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260941584, "dur":22264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260963852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260963904, "dur":10020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260973935, "dur":20044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260993982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098260993988, "dur":473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098260994470, "dur":32199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098261026672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098261026677, "dur":551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098261027240, "dur":41819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098261069062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098261069068, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098261069624, "dur":100328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098261169955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098261169960, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098261170508, "dur":155445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098261325971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098261325977, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098261326727, "dur":534761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098261861492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098261861497, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098261863273, "dur":60551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098261923826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098261923831, "dur":403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098261924242, "dur":224884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260319342, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260319343, "dur":1257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260320600, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1678098260320784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260322703, "dur":20621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1678098260343334, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1678098260343361, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260343510, "dur":29831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1678098260373352, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1678098260373372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260373383, "dur":11053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1678098260384445, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1678098260384468, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260384472, "dur":13376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1678098260397860, "dur":126709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260524573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260524598, "dur":19008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260543618, "dur":14140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260557761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260557894, "dur":427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260558329, "dur":15471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260573804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260573827, "dur":22800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260596637, "dur":25245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260621884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260621888, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260624334, "dur":27584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260651922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260651927, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260652411, "dur":22098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260674511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260674516, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260675369, "dur":47551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260722923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260722929, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260724356, "dur":81470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260805829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260805834, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260806801, "dur":37076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260843880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260843885, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260844385, "dur":28506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260872894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260872900, "dur":598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260873507, "dur":19259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260892769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260892775, "dur":674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260893460, "dur":18565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260912028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260912034, "dur":469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260912511, "dur":63767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260976281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260976286, "dur":625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260976921, "dur":14646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260991570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098260991576, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098260992193, "dur":25356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098261017553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098261017559, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098261018182, "dur":32053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098261050238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098261050243, "dur":427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098261050678, "dur":174063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098261224745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098261224751, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098261225753, "dur":60699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098261286455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098261286461, "dur":452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098261286922, "dur":112194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098261399120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098261399126, "dur":504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098261399640, "dur":478979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098261878622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098261878627, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098261880010, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1678098261880021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098261880032, "dur":13231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1678098261893273, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1678098261893284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098261893288, "dur":12928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1678098261906226, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1678098261906236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098261906240, "dur":367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1678098261906615, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1678098261906670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098261906673, "dur":2508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1678098261909193, "dur":953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1678098261910148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098261910151, "dur":337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1678098261910496, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1678098261910506, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098261910508, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1678098261911400, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1678098261911410, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098261911412, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1678098261913557, "dur":235441, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260319194, "dur":50, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260319244, "dur":1367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260320612, "dur":49119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1678098260369735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260369740, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1678098260373329, "dur":107795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1678098260481128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260481135, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1678098260481641, "dur":228875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1678098260710519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260710524, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1678098260711586, "dur":32505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260744095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260744100, "dur":496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260744608, "dur":31620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260776231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260776236, "dur":536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260776785, "dur":42610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260819398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260819403, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260820227, "dur":22058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260842288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260842294, "dur":491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260842794, "dur":17870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260860667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260860673, "dur":468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260861150, "dur":28625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260889779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260889784, "dur":750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260890543, "dur":18253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260908799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260908805, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260912231, "dur":28849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260941082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260941088, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260942228, "dur":22534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260964764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098260964768, "dur":10285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098260975064, "dur":75594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261050661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098261050665, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261051637, "dur":46734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261098374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098261098379, "dur":12107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261110495, "dur":95514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261206012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098261206019, "dur":552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261206580, "dur":75225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261281808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098261281813, "dur":593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261282416, "dur":119931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261402350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098261402356, "dur":469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261402833, "dur":78491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261481328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098261481334, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261481801, "dur":102302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261584107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098261584112, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261584964, "dur":115834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261700802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098261700807, "dur":119288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098261820105, "dur":325875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098262145983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098262145988, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098262148982, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1678098262148984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260319430, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260319431, "dur":1126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260320562, "dur":54184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1678098260374749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260374849, "dur":420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1678098260375278, "dur":153523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1678098260528804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260528810, "dur":11201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1678098260540058, "dur":42533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260582595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260582601, "dur":14142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260596752, "dur":44587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260641343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260641348, "dur":575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260641932, "dur":23024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260664960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260664967, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260665465, "dur":18156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260683625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260683631, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260685168, "dur":25932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260711103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260711109, "dur":459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260711578, "dur":17750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260729331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260729337, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260731599, "dur":105271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260836873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260836879, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260837549, "dur":18797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260856349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260856355, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260856804, "dur":28679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260885487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260885508, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260886800, "dur":22072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260908874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260908878, "dur":4143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260913620, "dur":22720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260936343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260936349, "dur":609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260936967, "dur":27297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260964267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260964272, "dur":9981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260974262, "dur":23816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260998081, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098260998087, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098260998596, "dur":75894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098261074493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098261074499, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098261074989, "dur":819334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098261894326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098261894331, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098261896791, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1678098261896806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098261896810, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1678098261897665, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1678098261897683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098261897686, "dur":8883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1678098261906579, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1678098261906593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098261906596, "dur":3372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1678098261909977, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1678098261909988, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098261909991, "dur":481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1678098261910480, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1678098261910488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098261910491, "dur":609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1678098261911109, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1678098261911117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098261911119, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1678098261912260, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1678098261912270, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098261912276, "dur":349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1678098261912633, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1678098261912689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098261912691, "dur":497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1678098261913196, "dur":235819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098260319265, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098260319265, "dur":1294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098260320563, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1678098260320603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098260322801, "dur":21572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1678098260344384, "dur":16073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1678098260360460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098260360466, "dur":460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1678098260360936, "dur":112735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1678098260473674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098260473681, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1678098260474307, "dur":1433514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098261907824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098261907828, "dur":14246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098261922088, "dur":227043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260319453, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260319453, "dur":1138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260320591, "dur":26020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678098260346615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260346621, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678098260348317, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1678098260348342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260348354, "dur":22197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1678098260370561, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1678098260370585, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260373203, "dur":11857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1678098260385077, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1678098260385129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260385133, "dur":121359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1678098260506508, "dur":126891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue.exe" }}
+,{ "pid":12345, "tid":6, "ts":1678098260633402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260633407, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue.exe" }}
+,{ "pid":12345, "tid":6, "ts":1678098260635376, "dur":17974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260653353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260653358, "dur":5839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260659208, "dur":14053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260673265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260673270, "dur":498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260673778, "dur":16127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260689909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260689914, "dur":478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260690402, "dur":60099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260750505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260750510, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260751177, "dur":25055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260776234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260776238, "dur":530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260776782, "dur":65593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260842377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260842381, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260843429, "dur":15168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260858600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260858606, "dur":412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260859027, "dur":16166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260875196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260875202, "dur":623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260875833, "dur":33441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260909276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260909279, "dur":10038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260919332, "dur":20360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260939696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098260939702, "dur":699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098260940413, "dur":60029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261000445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098261000451, "dur":426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261000885, "dur":50867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261051754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098261051759, "dur":3328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261055098, "dur":26220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261081322, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098261081328, "dur":440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261081781, "dur":37377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261119162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098261119184, "dur":422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261119614, "dur":134213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261253837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098261253842, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261254695, "dur":45843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261300545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098261300551, "dur":1381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261301942, "dur":130625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261432570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098261432575, "dur":10335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261442921, "dur":115735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261558659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098261558664, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261559775, "dur":291736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261851529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098261851536, "dur":560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098261852106, "dur":186131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Depoly/Sheep Rescue_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098262038240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098262038245, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Depoly/Sheep Rescue_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098262038763, "dur":110335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098262150703, "dur":1199, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1678098262195220, "dur": 425, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678098262191792, "dur": 3869, "ph": "X", "name": "Write chrome-trace events", "args": {} },
