@@ -466,6 +466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sheepSavedText: {fileID: 1773579786}
   sheepDroppedText: {fileID: 1743949357}
+  highScoreText: {fileID: 0}
   gameOverWindow: {fileID: 1102656195}
 --- !u!1 &416269871
 GameObject:
@@ -1154,6 +1155,8 @@ MonoBehaviour:
   - {fileID: 1198270168}
   - {fileID: 416269872}
   timeBetweenSpawns: 2
+  spawnRateDecreaseRate: 0.1
+  minimumSpawnDelay: 0.1
 --- !u!4 &1866037955
 Transform:
   m_ObjectHideFlags: 0

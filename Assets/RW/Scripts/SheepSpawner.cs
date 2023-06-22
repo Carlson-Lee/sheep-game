@@ -8,7 +8,9 @@ public class SheepSpawner : MonoBehaviour
 
     public GameObject sheepPrefab; 
     public List<Transform> sheepSpawnPositions = new List<Transform>(); 
-    public float timeBetweenSpawns; 
+    public float timeBetweenSpawns;
+    public float spawnRateDecreaseRate;
+    public float minimumSpawnDelay;
 
     private List<GameObject> sheepList = new List<GameObject>(); 
 
@@ -34,10 +36,18 @@ public class SheepSpawner : MonoBehaviour
 
     private IEnumerator SpawnRoutine() 
     {
+        float spawnDelay = timeBetweenSpawns;
+
         while (canSpawn) 
         {
             SpawnSheep(); 
-            yield return new WaitForSeconds(timeBetweenSpawns); 
+            yield return new WaitForSeconds(spawnDelay); 
+
+            spawnDelay -= spawnDelay * spawnRateDecreaseRate;
+            if (spawnDelay < minimumSpawnDelay)
+            {
+                spawnDelay = minimumSpawnDelay;
+            }
         }
     }
 

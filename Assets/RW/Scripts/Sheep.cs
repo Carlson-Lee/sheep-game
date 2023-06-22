@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Sheep : MonoBehaviour
 {
-    public float runSpeed; 
+    public float runSpeed;
+    public float speedIncreaseRate;
     public float gotHayDestroyDelay; 
     private bool hitByHay; 
     private bool dropped; 
@@ -25,6 +26,7 @@ public class Sheep : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        runSpeed += speedIncreaseRate * Time.deltaTime;
         transform.Translate(Vector3.forward * runSpeed * Time.deltaTime);
     }
 
